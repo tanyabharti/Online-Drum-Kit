@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Drum Kit</title> 
+   <!-- Linking stylesheet -->
+    <link rel="stylesheet" href="style.css" > 
+    <!-- Linking Remote Font Awesome website to local server -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+    </style>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+  <body>
+    <div class="container">
+      <div class="drum"><i class='fas fa-drum' style='font-size:90px; '></i>
+        <h1 class="title"> DRUM KIT</h1>
+      </div>
+       <div class="drum-set">
+           <button class="drum-button H">H</button>
+           <button class="drum-button I">I</button>
+           <button class="drum-button T">T</button>
+           <button class="drum-button M">M</button>
+           <button class="drum-button E">E</button>
+           <button class="drum-button U">U</button>
+           <button class="drum-button P">P</button>
+      </div>
+      <div class="vol-control">
+       <i class="fa fa-volume-up fa-2x"></i>
+      <input type="range" name="" id="vol-slider" min="0" max="100">
+      </div>
+      <div class="util-button">
+        <button id="util-button-auto">Start Auto Music</button>
+        <button id="util-button-theme">Change Theme</button>
+        <!-- <button id="util-button-bg">Change Background</button> -->
+      </div>
+       <footer>  Made with ❤️ by TANYA</footer>
+     </div>
+    <script src="myscript.js"></script>
+  </body> 
+</html>

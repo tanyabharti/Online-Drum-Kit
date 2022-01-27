@@ -1,0 +1,145 @@
+:root{
+   --background: #091921;
+   --text: #3399ff;
+   
+}
+
+
+*,
+html{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  background:var(--background);
+}
+
+.container{
+  padding: 10px;
+  min-height:  90vh;
+  margin: 3vh auto;
+  box-shadow: inset 2px 2px 5px var(--text),
+  inset -2px -2px 5px var(--text);
+  border-radius: 7px;
+}
+
+.fa-drum{
+   text-shadow:  2px 2px #091921;
+color : var(--text);}
+
+.drum{
+  display: flex;
+  color : var(--text);
+  justify-content: center;
+  align-content: center;
+  letter-spacing: 20px;
+  flex-direction: row;
+}
+.title{
+  margin: 20px 0;
+  font-size: 4rem;
+  font-weight: bolder;
+  text-shadow:  2px 2px #091921;
+  opacity: 0.9;
+  letter-spacing: normal;
+  color: var(--text);
+}
+
+.drum-button{
+  width:150px;
+  height:150px;
+  background: var(--background);
+  color: var(--text);
+  font-size: 3rem;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  box-shadow: -1px -1px 3px rgba(255,255,255,0.1),
+   1px 1px 3px rgba(0,0,0,0.8);
+   margin:10px;
+   border-radius: 15px;
+}
+
+.H,.M,.P{
+  border-radius: 50%;
+}
+
+#vol-slider{
+  height:7px;
+  width:200px;
+  margin-left: 10px;
+  appearance: none;
+  background: var(--text);
+  border-radius: 7px;
+  outline: none;
+}
+#vol-slider::-webkit-slider-thumb{
+ appearance:none;
+ width:22px;
+ height:22px;
+ border-radius: 50%;
+ background: var(--text);
+ cursor: pointer;
+}
+
+.vol-control{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.fa{
+   color: var(--text);
+   box-shadow: -1px -1px 3px rgba(255,255,255,0.1),
+   1px 1px 3px rgba(0,0,0,0.8);
+   padding: 10px;
+   border-radius: 50%;
+}
+
+.util-button{
+  margin-top: 40px;
+}
+
+.util-button > button{
+  height: 50px;
+  width: 200px;
+  font-size: 18px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+  border: none;
+  outline: none;
+  background: var(--background);
+  color: var(--text);
+   box-shadow: -1px -1px 3px rgba(255,255,255,0.1),
+   1px 1px 3px rgba(0,0,0,0.8);
+   margin: 10px 4px;
+}
+
+.clicked {
+    opacity: 0.5;
+    box-shadow : -1px -1px 3px var(--background);
+}
+
+#util-button-theme{
+    color: var(--text);
+    background: var(--background);
+}
+
+
+footer{
+  color: var(--text);
+  margin-top: 50px;
+  font-weight: bolder;
+  
+ 
+}
+
+
+.auto-music-button,
+.Change-theme-clicked{
+  box-shadow: -1px -1px 3px rgba(255,255,255,0.1),
+   1px 1px 3px rgba(0,0,0,0.8) !important;
+}
